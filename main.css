@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.post {
+    width: 100%;
+    max-width: 470px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    height: 60px;
+}
+
+.post-user {
+    display: flex;
+    align-items: center;
+}
+
+.post-user-icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.post-user-icon i {
+    font-size: 24px;
+    color: #e34c26;
+}
+
+.post-user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.location {
+    font-size: 14px;
+    line-height: 15px;
+    color: #262626;
+}
+
+.post-options i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.post-img {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.post-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 16px;
+}
+
+.post-actions-left {
+    display: flex;
+    gap: 18px;
+}
+
+.post-actions i {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.post-content {
+    padding: 0 16px 16px;
+}
+
+.post-likes {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.post-caption {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #262626;
+    margin-bottom: 4px;
+}
